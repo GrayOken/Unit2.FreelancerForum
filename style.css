@@ -1,4 +1,40 @@
 body {
+	display: flex;
 	padding: 0;
 	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-cont {
+	display: flex;
+	flex-direction: column;
+	min-width: 75vw;
+	min-height: 25vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.total-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	border: solid black 1px;
+	margin: 10px;
+	padding: 2px;
 }
